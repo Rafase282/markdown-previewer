@@ -1,0 +1,52 @@
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        title Markdown Previwer
+        //Always force latest IE rendering engine (even in intranet) & Chrome Frame Remove this if you use the .htaccess
+        meta(http-equiv="X-UA-Compatible" content="IE=edge,chrome=1")
+        meta(name="description" content="Markdown Previwer")
+        meta(name="author" content="Rafase282")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css")
+        link(rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css")
+        link(rel="stylesheet prefetch" href="stylesheets/index.css")
+
+body
+    block content
+    div(class="container-fluid")
+      h1(class="header, center-text")
+        | Markdown Previwer
+    section(class="main")
+      div(class="row")
+        div(class="col-xs-6")
+          h2(class="header, center-text")
+            | Source
+        div(class="col-xs-6")
+          h2(class="header, center-text")
+            | Preview
+       div(class="row")
+         div(class="col-sm-6")
+           textarea(class="panel" rows="30" cols="60")
+             | Write your Markdown here
+         div(class="col-sm-6")
+           textarea(class="panel" rows="30" cols="60")
+             | Markdown Displays here
+
+footer
+  p
+    | Copyright &copy; Rafael J. Rodriguez 2016. All Rights Reserved
+  p
+    a(href="mailto:rafase282@gmail.com")
+      i(class="fa fa-envelope fa-fw")
+    a(href="https://github.com/Rafase282" target="_blank") 
+      i(class="fa fa-github fa-fw")
+    a(href="https://www.linkedin.com/in/rafase282" target="_blank") 
+      i(class="fa fa-linkedin")
+    a(href="http://codepen.io/Rafase282" target="_blank") 
+      i(class="fa fa-codepen")
+    a(href="https://rafase282.wordpress.com/" target="_blank") 
+      i(class="fa fa-wordpress")
+    a(href="http://www.freecodecamp.com/rafase282" target="_blank")
+        |  (
+        i(class="fa fa-fire fa-fw")
+        | )

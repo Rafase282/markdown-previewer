@@ -1,0 +1,33 @@
+$size: 100%
+$font-stack: "Helvetica Neue", Arial, sans-serif
+
+.container-fluid
+  background-color: SkyBlue
+  
+.main
+  padding-top: 25px
+  margin-bottom: 25px
+  min-height: 90vh
+  background-color: SkyBlue
+
+footer 
+  min-height: 12vh
+  background-color: #222222
+  padding-top: 10px
+  padding-bottom: 10px
+  color: Gray
+  position: relative
+  text-align: center
+  min-width: $size
+  font-family: $font-stack
+
+.navbar 
+  position: relative
+
+.center-text 
+  text-align: center
+ 
+.panel
+  margin-left: 25%
+  color: Green
+  max-width: 100%
